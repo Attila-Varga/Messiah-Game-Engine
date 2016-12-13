@@ -13,6 +13,44 @@
 		7A35BD771DE1A8DC00814317 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BD751DE1A8DC00814317 /* MainMenu.xib */; };
 		7A35BD821DE1A8DC00814317 /* Neural_NetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BD811DE1A8DC00814317 /* Neural_NetTests.m */; };
 		7A35BD8D1DE1A8DC00814317 /* Neural_NetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BD8C1DE1A8DC00814317 /* Neural_NetUITests.m */; };
+		7A35BDB41DE1AA5F00814317 /* Bitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BD9A1DE1AA5F00814317 /* Bitmap.cpp */; };
+		7A35BDB51DE1AA5F00814317 /* Camera.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BD9C1DE1AA5F00814317 /* Camera.cpp */; };
+		7A35BDB61DE1AA5F00814317 /* Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BD9F1DE1AA5F00814317 /* Common.mm */; };
+		7A35BDB71DE1AA5F00814317 /* DMEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDA01DE1AA5F00814317 /* DMEngine.cpp */; };
+		7A35BDB81DE1AA5F00814317 /* Mesh.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDA21DE1AA5F00814317 /* Mesh.cpp */; };
+		7A35BDB91DE1AA5F00814317 /* MeshLoader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDA51DE1AA5F00814317 /* MeshLoader.cpp */; };
+		7A35BDBA1DE1AA5F00814317 /* ModelAsset.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDA71DE1AA5F00814317 /* ModelAsset.cpp */; };
+		7A35BDBB1DE1AA5F00814317 /* Program.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDA91DE1AA5F00814317 /* Program.cpp */; };
+		7A35BDBC1DE1AA5F00814317 /* SceneGraph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDAB1DE1AA5F00814317 /* SceneGraph.cpp */; };
+		7A35BDBD1DE1AA5F00814317 /* SceneNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDAD1DE1AA5F00814317 /* SceneNode.cpp */; };
+		7A35BDBE1DE1AA5F00814317 /* Shader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDAF1DE1AA5F00814317 /* Shader.cpp */; };
+		7A35BDBF1DE1AA5F00814317 /* Texture.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDB21DE1AA5F00814317 /* Texture.cpp */; };
+		7A35BDC21DE1AAA400814317 /* OpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BDC11DE1AAA400814317 /* OpenGLView.mm */; };
+		7A35BDC41DE1AB4100814317 /* glm in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BDC31DE1AB4100814317 /* glm */; };
+		7A35BDC71DE1ACBB00814317 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDC61DE1ACBB00814317 /* Cocoa.framework */; };
+		7A35BDC91DE1ACC200814317 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDC81DE1ACC200814317 /* OpenGL.framework */; };
+		7A35BDCB1DE1ACC700814317 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDCA1DE1ACC700814317 /* IOKit.framework */; };
+		7A35BDCD1DE1ACD500814317 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDCC1DE1ACD500814317 /* QuartzCore.framework */; };
+		7A35BDE01DE1B2B900814317 /* code in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BDDF1DE1B2B900814317 /* code */; };
+		7A35BDE21DE1B36200814317 /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDD01DE1AD2B00814317 /* libassimp.3.1.1.dylib */; };
+		7A35BDE31DE1B36400814317 /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDD01DE1AD2B00814317 /* libassimp.3.1.1.dylib */; };
+		7A35BDED1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDDC1DE1AED800814317 /* libassimp.3.1.1.dylib */; };
+		7A35BDEE1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDDC1DE1AED800814317 /* libassimp.3.1.1.dylib */; };
+		7A35BDEF1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A35BDDC1DE1AED800814317 /* libassimp.3.1.1.dylib */; };
+		7A35BE1B1DE1BE4D00814317 /* fragment-shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BDF01DE1B9AB00814317 /* fragment-shader.fsh */; };
+		7A35BE1C1DE1BE4D00814317 /* vertex-shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BDF11DE1B9AB00814317 /* vertex-shader.vsh */; };
+		7A35BE2F1DE1C58F00814317 /* level01groundside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2D1DE1C58F00814317 /* level01groundside.jpg */; };
+		7A35BE301DE1C58F00814317 /* level01groundside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2D1DE1C58F00814317 /* level01groundside.jpg */; };
+		7A35BE311DE1C58F00814317 /* level01groundside.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2D1DE1C58F00814317 /* level01groundside.jpg */; };
+		7A35BE321DE1C58F00814317 /* levelground01.FBX in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2E1DE1C58F00814317 /* levelground01.FBX */; };
+		7A35BE331DE1C58F00814317 /* levelground01.FBX in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2E1DE1C58F00814317 /* levelground01.FBX */; };
+		7A35BE341DE1C58F00814317 /* levelground01.FBX in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE2E1DE1C58F00814317 /* levelground01.FBX */; };
+		7A35BE371DE1C70100814317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BE361DE1C70100814317 /* ViewController.m */; };
+		7A35BE381DE1C70100814317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BE361DE1C70100814317 /* ViewController.m */; };
+		7A35BE391DE1C70100814317 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A35BE361DE1C70100814317 /* ViewController.m */; };
+		7A35BE3B1DE1CAA500814317 /* wooden-crate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE3A1DE1CAA500814317 /* wooden-crate.jpg */; };
+		7A35BE3C1DE1CAA500814317 /* wooden-crate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE3A1DE1CAA500814317 /* wooden-crate.jpg */; };
+		7A35BE3D1DE1CAA500814317 /* wooden-crate.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7A35BE3A1DE1CAA500814317 /* wooden-crate.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +84,52 @@
 		7A35BD881DE1A8DC00814317 /* Neural NetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neural NetUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A35BD8C1DE1A8DC00814317 /* Neural_NetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Neural_NetUITests.m; sourceTree = "<group>"; };
 		7A35BD8E1DE1A8DC00814317 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A35BD9A1DE1AA5F00814317 /* Bitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Bitmap.cpp; sourceTree = "<group>"; };
+		7A35BD9B1DE1AA5F00814317 /* Bitmap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Bitmap.hpp; sourceTree = "<group>"; };
+		7A35BD9C1DE1AA5F00814317 /* Camera.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Camera.cpp; sourceTree = "<group>"; };
+		7A35BD9D1DE1AA5F00814317 /* Camera.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Camera.hpp; sourceTree = "<group>"; };
+		7A35BD9E1DE1AA5F00814317 /* Common.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Common.hpp; sourceTree = "<group>"; };
+		7A35BD9F1DE1AA5F00814317 /* Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Common.mm; sourceTree = "<group>"; };
+		7A35BDA01DE1AA5F00814317 /* DMEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DMEngine.cpp; sourceTree = "<group>"; };
+		7A35BDA11DE1AA5F00814317 /* DMEngine.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = DMEngine.hpp; sourceTree = "<group>"; };
+		7A35BDA21DE1AA5F00814317 /* Mesh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mesh.cpp; sourceTree = "<group>"; };
+		7A35BDA31DE1AA5F00814317 /* Mesh.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Mesh.hpp; sourceTree = "<group>"; };
+		7A35BDA41DE1AA5F00814317 /* MeshData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeshData.h; sourceTree = "<group>"; };
+		7A35BDA51DE1AA5F00814317 /* MeshLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MeshLoader.cpp; path = "Neural Net/MeshLoader.cpp"; sourceTree = SOURCE_ROOT; };
+		7A35BDA61DE1AA5F00814317 /* MeshLoader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MeshLoader.hpp; sourceTree = "<group>"; };
+		7A35BDA71DE1AA5F00814317 /* ModelAsset.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ModelAsset.cpp; sourceTree = "<group>"; };
+		7A35BDA81DE1AA5F00814317 /* ModelAsset.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ModelAsset.hpp; sourceTree = "<group>"; };
+		7A35BDA91DE1AA5F00814317 /* Program.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Program.cpp; sourceTree = "<group>"; };
+		7A35BDAA1DE1AA5F00814317 /* Program.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Program.hpp; sourceTree = "<group>"; };
+		7A35BDAB1DE1AA5F00814317 /* SceneGraph.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneGraph.cpp; sourceTree = "<group>"; };
+		7A35BDAC1DE1AA5F00814317 /* SceneGraph.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneGraph.hpp; sourceTree = "<group>"; };
+		7A35BDAD1DE1AA5F00814317 /* SceneNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SceneNode.cpp; sourceTree = "<group>"; };
+		7A35BDAE1DE1AA5F00814317 /* SceneNode.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SceneNode.hpp; sourceTree = "<group>"; };
+		7A35BDAF1DE1AA5F00814317 /* Shader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shader.cpp; sourceTree = "<group>"; };
+		7A35BDB01DE1AA5F00814317 /* Shader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Shader.hpp; sourceTree = "<group>"; };
+		7A35BDB11DE1AA5F00814317 /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		7A35BDB21DE1AA5F00814317 /* Texture.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Texture.cpp; sourceTree = "<group>"; };
+		7A35BDB31DE1AA5F00814317 /* Texture.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Texture.hpp; sourceTree = "<group>"; };
+		7A35BDC01DE1AAA400814317 /* OpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OpenGLView.h; sourceTree = "<group>"; };
+		7A35BDC11DE1AAA400814317 /* OpenGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenGLView.mm; sourceTree = "<group>"; };
+		7A35BDC31DE1AB4100814317 /* glm */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glm; sourceTree = "<group>"; };
+		7A35BDC61DE1ACBB00814317 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7A35BDC81DE1ACC200814317 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		7A35BDCA1DE1ACC700814317 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		7A35BDCC1DE1ACD500814317 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7A35BDCE1DE1AD2B00814317 /* libassimp.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.1.1.dylib; path = "Neural Net/libassimp.3.1.1.dylib"; sourceTree = "<group>"; };
+		7A35BDCF1DE1AD2B00814317 /* libassimp.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.1.1.dylib; path = "Neural Net/libassimp.3.1.1.dylib"; sourceTree = "<group>"; };
+		7A35BDD01DE1AD2B00814317 /* libassimp.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.1.1.dylib; path = "Neural Net/libassimp.3.1.1.dylib"; sourceTree = "<group>"; };
+		7A35BDDC1DE1AED800814317 /* libassimp.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.1.1.dylib; path = "../../../Downloads/assimp-3.1.1/build/code/libassimp.3.1.1.dylib"; sourceTree = "<group>"; };
+		7A35BDDF1DE1B2B900814317 /* code */ = {isa = PBXFileReference; lastKnownFileType = folder; name = code; path = "../../../Downloads/assimp-3.1.1/build/code"; sourceTree = "<group>"; };
+		7A35BDF01DE1B9AB00814317 /* fragment-shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "fragment-shader.fsh"; path = "../fragment-shader.fsh"; sourceTree = "<group>"; };
+		7A35BDF11DE1B9AB00814317 /* vertex-shader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; name = "vertex-shader.vsh"; path = "../vertex-shader.vsh"; sourceTree = "<group>"; };
+		7A35BE2D1DE1C58F00814317 /* level01groundside.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = level01groundside.jpg; sourceTree = "<group>"; };
+		7A35BE2E1DE1C58F00814317 /* levelground01.FBX */ = {isa = PBXFileReference; lastKnownFileType = file; name = levelground01.FBX; path = "/Users/Death/Desktop/Code/Neural Net/Neural Net/levelground01.FBX"; sourceTree = "<absolute>"; };
+		7A35BE351DE1C70100814317 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7A35BE361DE1C70100814317 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7A35BE3A1DE1CAA500814317 /* wooden-crate.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wooden-crate.jpg"; sourceTree = "<group>"; };
+		7A35BE3E1DE208A900814317 /* plane.3ds */ = {isa = PBXFileReference; lastKnownFileType = file; path = plane.3ds; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +137,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BDED1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */,
+				7A35BDEE1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */,
+				7A35BDEF1DE1B69500814317 /* libassimp.3.1.1.dylib in Frameworks */,
+				7A35BDCD1DE1ACD500814317 /* QuartzCore.framework in Frameworks */,
+				7A35BDCB1DE1ACC700814317 /* IOKit.framework in Frameworks */,
+				7A35BDC91DE1ACC200814317 /* OpenGL.framework in Frameworks */,
+				7A35BDC71DE1ACBB00814317 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +151,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BDE21DE1B36200814317 /* libassimp.3.1.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +159,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BDE31DE1B36400814317 /* libassimp.3.1.1.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,10 +169,12 @@
 		7A35BD611DE1A8DB00814317 = {
 			isa = PBXGroup;
 			children = (
+				7A35BDDF1DE1B2B900814317 /* code */,
 				7A35BD6C1DE1A8DC00814317 /* Neural Net */,
 				7A35BD801DE1A8DC00814317 /* Neural NetTests */,
 				7A35BD8B1DE1A8DC00814317 /* Neural NetUITests */,
 				7A35BD6B1DE1A8DC00814317 /* Products */,
+				7A35BDC51DE1ACBB00814317 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,10 +191,41 @@
 		7A35BD6C1DE1A8DC00814317 /* Neural Net */ = {
 			isa = PBXGroup;
 			children = (
+				7A35BE351DE1C70100814317 /* ViewController.h */,
+				7A35BE361DE1C70100814317 /* ViewController.m */,
 				7A35BD6D1DE1A8DC00814317 /* AppDelegate.h */,
 				7A35BD6E1DE1A8DC00814317 /* AppDelegate.m */,
+				7A35BDC01DE1AAA400814317 /* OpenGLView.h */,
+				7A35BDC11DE1AAA400814317 /* OpenGLView.mm */,
 				7A35BD731DE1A8DC00814317 /* Assets.xcassets */,
 				7A35BD751DE1A8DC00814317 /* MainMenu.xib */,
+				7A35BDC31DE1AB4100814317 /* glm */,
+				7A35BD9A1DE1AA5F00814317 /* Bitmap.cpp */,
+				7A35BD9B1DE1AA5F00814317 /* Bitmap.hpp */,
+				7A35BD9C1DE1AA5F00814317 /* Camera.cpp */,
+				7A35BD9D1DE1AA5F00814317 /* Camera.hpp */,
+				7A35BD9E1DE1AA5F00814317 /* Common.hpp */,
+				7A35BD9F1DE1AA5F00814317 /* Common.mm */,
+				7A35BDA01DE1AA5F00814317 /* DMEngine.cpp */,
+				7A35BDA11DE1AA5F00814317 /* DMEngine.hpp */,
+				7A35BDA21DE1AA5F00814317 /* Mesh.cpp */,
+				7A35BDA31DE1AA5F00814317 /* Mesh.hpp */,
+				7A35BDA41DE1AA5F00814317 /* MeshData.h */,
+				7A35BDA51DE1AA5F00814317 /* MeshLoader.cpp */,
+				7A35BDA61DE1AA5F00814317 /* MeshLoader.hpp */,
+				7A35BDA71DE1AA5F00814317 /* ModelAsset.cpp */,
+				7A35BDA81DE1AA5F00814317 /* ModelAsset.hpp */,
+				7A35BDA91DE1AA5F00814317 /* Program.cpp */,
+				7A35BDAA1DE1AA5F00814317 /* Program.hpp */,
+				7A35BDAB1DE1AA5F00814317 /* SceneGraph.cpp */,
+				7A35BDAC1DE1AA5F00814317 /* SceneGraph.hpp */,
+				7A35BDAD1DE1AA5F00814317 /* SceneNode.cpp */,
+				7A35BDAE1DE1AA5F00814317 /* SceneNode.hpp */,
+				7A35BDAF1DE1AA5F00814317 /* Shader.cpp */,
+				7A35BDB01DE1AA5F00814317 /* Shader.hpp */,
+				7A35BDB11DE1AA5F00814317 /* stb_image.h */,
+				7A35BDB21DE1AA5F00814317 /* Texture.cpp */,
+				7A35BDB31DE1AA5F00814317 /* Texture.hpp */,
 				7A35BD781DE1A8DC00814317 /* Info.plist */,
 				7A35BD701DE1A8DC00814317 /* Supporting Files */,
 			);
@@ -109,6 +235,12 @@
 		7A35BD701DE1A8DC00814317 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7A35BDF01DE1B9AB00814317 /* fragment-shader.fsh */,
+				7A35BE3A1DE1CAA500814317 /* wooden-crate.jpg */,
+				7A35BE2D1DE1C58F00814317 /* level01groundside.jpg */,
+				7A35BE3E1DE208A900814317 /* plane.3ds */,
+				7A35BE2E1DE1C58F00814317 /* levelground01.FBX */,
+				7A35BDF11DE1B9AB00814317 /* vertex-shader.vsh */,
 				7A35BD711DE1A8DC00814317 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -130,6 +262,21 @@
 				7A35BD8E1DE1A8DC00814317 /* Info.plist */,
 			);
 			path = "Neural NetUITests";
+			sourceTree = "<group>";
+		};
+		7A35BDC51DE1ACBB00814317 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A35BDDC1DE1AED800814317 /* libassimp.3.1.1.dylib */,
+				7A35BDCE1DE1AD2B00814317 /* libassimp.3.1.1.dylib */,
+				7A35BDCF1DE1AD2B00814317 /* libassimp.3.1.1.dylib */,
+				7A35BDD01DE1AD2B00814317 /* libassimp.3.1.1.dylib */,
+				7A35BDCC1DE1ACD500814317 /* QuartzCore.framework */,
+				7A35BDCA1DE1ACC700814317 /* IOKit.framework */,
+				7A35BDC81DE1ACC200814317 /* OpenGL.framework */,
+				7A35BDC61DE1ACBB00814317 /* Cocoa.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +388,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BDC41DE1AB4100814317 /* glm in Resources */,
 				7A35BD741DE1A8DC00814317 /* Assets.xcassets in Resources */,
+				7A35BE1C1DE1BE4D00814317 /* vertex-shader.vsh in Resources */,
+				7A35BE1B1DE1BE4D00814317 /* fragment-shader.fsh in Resources */,
+				7A35BE3B1DE1CAA500814317 /* wooden-crate.jpg in Resources */,
+				7A35BE2F1DE1C58F00814317 /* level01groundside.jpg in Resources */,
 				7A35BD771DE1A8DC00814317 /* MainMenu.xib in Resources */,
+				7A35BDE01DE1B2B900814317 /* code in Resources */,
+				7A35BE321DE1C58F00814317 /* levelground01.FBX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +404,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BE301DE1C58F00814317 /* level01groundside.jpg in Resources */,
+				7A35BE3C1DE1CAA500814317 /* wooden-crate.jpg in Resources */,
+				7A35BE331DE1C58F00814317 /* levelground01.FBX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +414,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BE311DE1C58F00814317 /* level01groundside.jpg in Resources */,
+				7A35BE3D1DE1CAA500814317 /* wooden-crate.jpg in Resources */,
+				7A35BE341DE1C58F00814317 /* levelground01.FBX in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,8 +427,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BDBE1DE1AA5F00814317 /* Shader.cpp in Sources */,
+				7A35BDBF1DE1AA5F00814317 /* Texture.cpp in Sources */,
+				7A35BDBB1DE1AA5F00814317 /* Program.cpp in Sources */,
+				7A35BDB51DE1AA5F00814317 /* Camera.cpp in Sources */,
+				7A35BDB61DE1AA5F00814317 /* Common.mm in Sources */,
+				7A35BDB71DE1AA5F00814317 /* DMEngine.cpp in Sources */,
+				7A35BDB91DE1AA5F00814317 /* MeshLoader.cpp in Sources */,
+				7A35BDB81DE1AA5F00814317 /* Mesh.cpp in Sources */,
+				7A35BDBD1DE1AA5F00814317 /* SceneNode.cpp in Sources */,
+				7A35BDBC1DE1AA5F00814317 /* SceneGraph.cpp in Sources */,
+				7A35BE371DE1C70100814317 /* ViewController.m in Sources */,
 				7A35BD721DE1A8DC00814317 /* main.m in Sources */,
 				7A35BD6F1DE1A8DC00814317 /* AppDelegate.m in Sources */,
+				7A35BDC21DE1AAA400814317 /* OpenGLView.mm in Sources */,
+				7A35BDBA1DE1AA5F00814317 /* ModelAsset.cpp in Sources */,
+				7A35BDB41DE1AA5F00814317 /* Bitmap.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,6 +450,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BE381DE1C70100814317 /* ViewController.m in Sources */,
 				7A35BD821DE1A8DC00814317 /* Neural_NetTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +459,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A35BE391DE1C70100814317 /* ViewController.m in Sources */,
 				7A35BD8D1DE1A8DC00814317 /* Neural_NetUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,7 +494,7 @@
 		7A35BD8F1DE1A8DC00814317 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -355,6 +531,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"/Users/Death/Downloads/assimp-3.1.1/include/",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/Death/Downloads/assimp-3.1.1/include/";
+				LIBRARY_SEARCH_PATHS = "/Users/Death/Downloads/assimp-3.1.1/build/code/";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/Death/Downloads/assimp-3.1.1/build/code/";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -365,7 +549,7 @@
 		7A35BD901DE1A8DC00814317 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -396,6 +580,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"/Users/Death/Downloads/assimp-3.1.1/include/",
+				);
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -406,10 +595,20 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 694F87T4JZ;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"/Users/Death/Downloads/assimp-3.1.1/include/",
+				);
+				"HEADER_SEARCH_PATHS[arch=*]" = "/Users/Death/Downloads/assimp-3.1.1/include/";
 				INFOPLIST_FILE = "Neural Net/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "/Users/Death/Downloads/assimp-3.1.1/build/code/";
+				"LIBRARY_SEARCH_PATHS[arch=*]" = "/Users/Death/Downloads/assimp-3.1.1/build/code/";
+				"OTHER_LDFLAGS[arch=*]" = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-Net";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -419,10 +618,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 694F87T4JZ;
+				HEADER_SEARCH_PATHS = (
+					"<Multiple",
+					"values>",
+					"/Users/Death/Downloads/assimp-3.1.1/include/",
+				);
 				INFOPLIST_FILE = "Neural Net/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-Net";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -436,6 +642,10 @@
 				DEVELOPMENT_TEAM = 694F87T4JZ;
 				INFOPLIST_FILE = "Neural NetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Neural\\ Net",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-NetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neural Net.app/Contents/MacOS/Neural Net";
@@ -450,6 +660,10 @@
 				DEVELOPMENT_TEAM = 694F87T4JZ;
 				INFOPLIST_FILE = "Neural NetTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Neural\\ Net",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-NetTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neural Net.app/Contents/MacOS/Neural Net";
@@ -463,6 +677,10 @@
 				DEVELOPMENT_TEAM = 694F87T4JZ;
 				INFOPLIST_FILE = "Neural NetUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Neural\\ Net",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-NetUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Neural Net";
@@ -476,6 +694,10 @@
 				DEVELOPMENT_TEAM = 694F87T4JZ;
 				INFOPLIST_FILE = "Neural NetUITests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Neural\\ Net",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.digitalmessiah.com.Neural-NetUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = "Neural Net";

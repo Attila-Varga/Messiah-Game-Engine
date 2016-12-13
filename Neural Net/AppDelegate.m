@@ -17,6 +17,8 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSString *resourcePath = [[NSBundle mainBundle] resourcePath];
+    [[NSFileManager defaultManager] changeCurrentDirectoryPath:resourcePath];
 }
 
 
