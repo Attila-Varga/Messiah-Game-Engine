@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A35BD691DE1A8DC00814317"
-               BuildableName = "Neural Net.app"
-               BlueprintName = "Neural Net"
-               ReferencedContainer = "container:Neural Net.xcodeproj">
+               BuildableName = "Messiah Game Engine.app"
+               BlueprintName = "Messiah Game Engine"
+               ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A35BD7C1DE1A8DC00814317"
-               BuildableName = "Neural NetTests.xctest"
-               BlueprintName = "Neural NetTests"
-               ReferencedContainer = "container:Neural Net.xcodeproj">
+               BuildableName = "Messiah Game EngineTests.xctest"
+               BlueprintName = "Messiah Game EngineTests"
+               ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7A35BD871DE1A8DC00814317"
-               BuildableName = "Neural NetUITests.xctest"
-               BlueprintName = "Neural NetUITests"
-               ReferencedContainer = "container:Neural Net.xcodeproj">
+               BuildableName = "Messiah Game EngineUITests.xctest"
+               BlueprintName = "Messiah Game EngineUITests"
+               ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -61,9 +61,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A35BD691DE1A8DC00814317"
-            BuildableName = "Neural Net.app"
-            BlueprintName = "Neural Net"
-            ReferencedContainer = "container:Neural Net.xcodeproj">
+            BuildableName = "Messiah Game Engine.app"
+            BlueprintName = "Messiah Game Engine"
+            ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,7 +75,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/Death/Desktop/Code/Neural Net/Neural Net"
+      customWorkingDirectory = "/Users/Death/Desktop/Code/Messiah Game Engine/Messiah Game Engine"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
@@ -85,9 +85,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A35BD691DE1A8DC00814317"
-            BuildableName = "Neural Net.app"
-            BlueprintName = "Neural Net"
-            ReferencedContainer = "container:Neural Net.xcodeproj">
+            BuildableName = "Messiah Game Engine.app"
+            BlueprintName = "Messiah Game Engine"
+            ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -104,9 +104,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7A35BD691DE1A8DC00814317"
-            BuildableName = "Neural Net.app"
-            BlueprintName = "Neural Net"
-            ReferencedContainer = "container:Neural Net.xcodeproj">
+            BuildableName = "Messiah Game Engine.app"
+            BlueprintName = "Messiah Game Engine"
+            ReferencedContainer = "container:Messiah Game Engine.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
