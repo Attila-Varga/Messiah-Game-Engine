@@ -4,6 +4,6 @@ A simple multi-platform open source game engine, that will be available for iOS,
 
 Supported features will include : - OpenGL 3D Rendering
                                   - Bullet Physics Simulations
-                                  - Artificial Intelligence
+                                 
                                   
 The engine itself is written is C++, iOS/OSX Framework is written in Objective-C.
